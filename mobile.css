@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Josefin+Sans&display=swap');
 *{
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 0;
     border: 0;
     list-style: none;
@@ -9,109 +9,89 @@ body{
     background: #FBFAFE;
     color: #35414B;
 }
+.mobile-hidden{
+    display: none!important;
+}
+.desktop-hidden{
+    display: inherit!important;
+}
 .container{
-    margin-left: 150px;
+    width: 100%;
     box-sizing: border-box;
     display: inline-flex;
-flex-direction: column;
-justify-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
-
 .header{
-
-width: 100%;
-height: 48px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-flex-direction: row;
+    width: 100%;
+    height: 48px;
+    margin-left: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 100px;
 }
 .headtitle{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     font-size: 24px;
-    margin-right: 233px;
 }
 .titletext{
-color: #1D2830;
+    color: #1D2830;
 }
 .dot{
- color: #794CFF;
-}
-.links{
-    display: inline-flex;
-    flex-direction: row;
-    gap: 44px;
-}
-.link{
-    text-decoration: none;
-    color: #35414B;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-
-}
-.down{
-    background-color: #FBFAFE;
-    width: 15px;
-    height: 15px;
-    margin-left: -42px;
-    padding-top: 2px;
-}
-.login{
-    padding-left: 95px;
-    text-decoration: none;
-    color:#35414B;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-}
-.start{
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
     color: #794CFF;
-    margin-left: 16px;
-    background-color: #ECE5FF;
-    padding: 16px 23px;
-    border-radius: 4px;
-    overflow: hidden;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.menu__icon{
+    width: 24px;
+    margin-right: 20px;
+    height: 16px;
+    background: url(images/menu.svg) center no-repeat;
+    
+}
+.menu__text{
+    color: #4E5A65;
+    font-size: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 .buttonsale{
-    margin: 120px auto 32px auto;
     background-color: #F2F9EB;
+    margin: auto;
+    padding-left: 10px;
     border-radius: 100px;
-    font-size: 16px;
-    gap: 8px;
+    gap: 4px;
     height: 32px;
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-}
-.sale{
-    padding: 8px 16px;
-    margin-top: 2px;
-    background-color: #81C43B;
-    border-radius: 100px;
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
 }
 .price{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    padding-bottom: 13px;
-    padding-top: 3px;
+    padding: 0 5px;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 16px;
 }
 .right{
     background-color: #F2F9EB;
     width: 5px;
     height: 7px;
     border-radius: 0 0 100px 0;
-    padding-right: 8px;
+    padding-right: 15px;
     padding-bottom: 8px;
 
 }
@@ -126,41 +106,37 @@ color: #1D2830;
 .maintitle{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 32px;
+    width: 320px;
 }
 .subtitle{
     color: #4E5A65;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    width: 320px;
     font-size: 16px;
 }
 .emailtype{
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 25px;
+    align-items: center;
+    margin-top: 15px;
 }
 .email{
     border: 1px #E1E5EA solid; 
     border-radius: 4px 2px 2px 4px;
-    padding: 18px 24px;
-    width: 270px;
+    padding: 18px 61px;
+    width: 190px;
+    text-align: center;
 }
 .try{
     background-color: #794CFF;
     border-radius: 2px 4px 4px 2px;
     color: #FFF;
-    padding: 17px 45px;
+    padding: 18px 122px;
     border: 1px #794CFF solid;
     font-weight: 500;
     font-size: 16px;
     
-}
-.table{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-width: 920px;
-height: 650px;
 }
