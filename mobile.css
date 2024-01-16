@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Josefin+Sans&display=swap');
 *{
     padding: 0;
     border: 0;
     list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 body{
     background: #FBFAFE;
@@ -33,36 +34,33 @@ body{
     padding-bottom: 100px;
 }
 .headtitle{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
     display: flex;
     flex-direction: row;
     font-size: 24px;
 }
 .titletext{
     color: #1D2830;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .dot{
     color: #794CFF;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .menu{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    gap: 8px;
 }
 .menu__icon{
     width: 24px;
     margin-right: 20px;
     height: 16px;
     background: url(images/menu.svg) center no-repeat;
-    
 }
 .menu__text{
     color: #4E5A65;
     font-size: 8px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
 }
 .buttonsale{
     background-color: #F2F9EB;
@@ -78,8 +76,6 @@ body{
     text-align: center;
 }
 .price{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     padding: 0 5px;
     margin: auto;
     display: inline-flex;
@@ -92,8 +88,7 @@ body{
     height: 7px;
     border-radius: 0 0 100px 0;
     padding-right: 15px;
-    padding-bottom: 3px;
-
+    padding-bottom: 1px;
 }
 .title{
     gap: 25px;
@@ -105,15 +100,12 @@ body{
     margin-top: 30px;
 }
 .maintitle{
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 32px;
     width: 320px;
 }
 .subtitle{
     color: #4E5A65;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     width: 320px;
     font-size: 16px;
 }
@@ -135,10 +127,11 @@ body{
     background-color: #794CFF;
     border-radius: 2px 4px 4px 2px;
     color: #FFF;
-    padding: 18px 122px;
+    padding: 18px 119px;
     border: 1px #794CFF solid;
     font-weight: 500;
     font-size: 16px;
+    text-decoration: none;
 }
 .sponsors{
     background-color: #fff;
@@ -163,14 +156,10 @@ body{
 .spons_text{
     color: #4E5A65;
     font-size: 11px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-
 }
 .spons_number{
     color: #4E5A65;
     font-size: 11px;
-    font-family: 'Inter',sans-serif;
     font-weight: 700;
 }
 .spons_icon{
@@ -204,14 +193,11 @@ body{
 .survey_title{
     color: #35414B;
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 .survey_text{
     color: #4E5A65;
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     line-height: 24px;
 }
 .text_signs{
@@ -227,14 +213,11 @@ body{
 .sign_title{
     color: #35414B;
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 .sign_text{
     color: #4E5A65;
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     line-height: 24px;
 }
 .line{
@@ -253,10 +236,9 @@ body{
     padding-bottom: 50px;
 }
 .title_second{
-    margin: 70px 0;
+    margin: 50px 0;
     color: #35414B;
     font-size: 24px;
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 .signs_second{
@@ -269,15 +251,12 @@ body{
 .sign_second_title{
     color: #35414B;
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .sign_second_text{
     color: #4E5A65;
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     line-height: 24px;
 }
 .sign_report{
@@ -336,4 +315,136 @@ body{
     height: 50px;
     border-radius: 100%;
     background-color: #F7EBF9;
+}
+.more_info{
+    text-decoration: none;
+    color: #7259FA;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 18px 85px;
+    background-color: #ECE5FF;
+    border-radius: 4px;
+}
+.main-box-third{
+    border-top: 1px #F0EBFA solid;
+    border-bottom: 1px #F0EBFA solid;
+    width: 101%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0;
+}
+.text_third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    order: 2;
+}
+.title_third{
+    color: #35414B;
+    font-size: 24px;
+    font-weight: 600;
+}
+.subtitle_third{
+    color: #4E5A65;
+    font-size: 16px;
+    width: 320px;
+}
+.link_start{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #796EFF;
+    padding: 18px 98px;
+    text-align: center;
+    border-radius: 4px;
+}
+.data{
+    width: 380px;
+    order: 1;
+}
+.main-box-fourth{
+    background-color: #fff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 101%;
+}
+.title_fourth{
+    color: #35414B;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.subtitle_fourth{
+    width: 330px;
+    color: #4E5A65;
+    font-size: 18px;
+    padding-bottom: 30px;
+    line-height: 32px;
+}
+.credits{
+    margin: 20px 0;
+}
+.person_one{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.credits_pics{
+    width: 40px;
+}
+.credits_names{
+    color: #4E5A65;
+    font-size: 12px;
+    font-weight: 600;
+}
+.credits_jobs{
+    color: #4E5A65;
+    font-size: 12px;
+}
+.install_apps{
+    box-sizing: border-box;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #796EFF;
+    width: 103%;
+    gap: 20px;
+    padding: 50px 0;
+}
+.text_apps{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.links_apps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.link_app_google{
+    width: 180px;
+    text-decoration: none;
+}
+.link_app_store{
+    width: 180px;
+    text-decoration: none;
 }

@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Josefin+Sans&display=swap');
 *{
     padding: 0;
     border: 0;
     list-style: none;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
 }
 body{
     background: #FBFAFE;
@@ -13,6 +14,9 @@ body{
     display: none!important;
 }
 .mobile-hidden{
+    display: inherit!important;
+}
+.laptop-hidden{
     display: inherit!important;
 }
 .container{
@@ -31,8 +35,6 @@ body{
     flex-direction: row;
 }
 .headtitle{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
     display: inline-flex;
     flex-direction: row;
     font-size: 20px;
@@ -40,9 +42,11 @@ body{
 }
 .titletext{
     color: #1D2830;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .dot{
     color: #794CFF;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .links{
     display: inline-flex;
@@ -52,9 +56,7 @@ body{
 .link{
     text-decoration: none;
     color: #35414B;
-    font-family: 'Inter', sans-serif;
     font-weight: 400;
-
 }
 .down{
     background-color: #FBFAFE;
@@ -73,11 +75,9 @@ body{
     padding-left: 80px;
     text-decoration: none;
     color:#35414B;
-    font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
 .start{
-    font-family: 'Inter', sans-serif;
     width: 122px;
     text-decoration: none;
     font-weight: 500;
@@ -90,7 +90,6 @@ body{
     overflow: hidden;
 }
 .buttonsale{
-    
     background-color: #F2F9EB;
     border-radius: 100px;
     font-size: 16px;
@@ -101,7 +100,6 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 .sale{
     padding: 8px 16px;
@@ -110,12 +108,9 @@ body{
     background-color: #81C43B;
     border-radius: 100px;
     color: #FFF;
-    font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
 .price{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     padding: 0 8px 0 25px;
     margin-left: -10px;
 }
@@ -125,7 +120,7 @@ body{
     height: 7px;
     border-radius: 0 0 100px 0;
     padding-right: 8px;
-    padding-bottom: 4px;
+    padding-bottom: 2px;
 }
 .title{
     gap: 25px;
@@ -165,11 +160,11 @@ body{
     background-color: #794CFF;
     border-radius: 2px 4px 4px 2px;
     color: #FFF;
-    padding: 17px 45px;
+    padding: 15px 45px;
     border: 1px #794CFF solid;
     font-weight: 500;
     font-size: 16px;
-    
+    text-decoration: none;
 }
 .table{
     display: flex;
@@ -202,8 +197,6 @@ body{
 .spons_text{
     color: #4E5A65;
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     line-height: 16px;
     word-wrap: break-word
 }
@@ -249,14 +242,11 @@ body{
 .survey_title{
     color: #35414B;
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 .survey_text{
     color: #4E5A65;
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     line-height: 24px;
 }
 .text_signs{
@@ -273,14 +263,11 @@ body{
 .sign_title{
     color: #35414B;
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 .sign_text{
     color: #4E5A65;
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
     line-height: 24px;
 }
 .line{
@@ -301,7 +288,6 @@ body{
     margin: 70px 0;
     color: #35414B;
     font-size: 40px;
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
     line-height: 40px;
 }
@@ -315,15 +301,12 @@ body{
 .sign_second_title{
     color: #35414B;
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
     margin-bottom: 5px;
 }
 .sign_second_text{
     color: #4E5A65;
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
 }
 .sign_report{
     width: 300px;
@@ -443,4 +426,229 @@ body{
     height: 50px;
     border-radius: 100%;
     background-color: #FEF5EC;
+}
+.main-box-third{
+    border-top: 1px #F0EBFA solid;
+    border-bottom: 1px #F0EBFA solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 0;
+    width: 101%;
+}
+.text_third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    gap: 30px;
+    order: 1;
+}
+.title_third{
+    color: #35414B;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.subtitle_third{
+    color: #4E5A65;
+    font-size: 16px;
+    width: 415px;
+}
+.link_start{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #796EFF;
+    padding: 18px 21px;
+    text-align: center;
+    border-radius: 4px;
+}
+.diagram{
+    order: 2;
+}
+.data{
+    width: 570px;
+}
+.main-box-fourth{
+    background-color: #fff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 101%;
+}
+.title_fourth{
+    color: #35414B;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    padding-bottom: 30px;
+}
+.subtitle_fourth{
+    width: 540px;
+    color: #4E5A65;
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 50px;
+}
+.credits{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 110px;
+}
+.person_one{
+    border-top: 4px #35414B solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    padding: 25px 15px 5px 15px;
+    gap: 10px;
+}
+.credits_pics{
+    width: 50px;
+}
+.credits_names{
+    color: #4E5A65;
+    font-size: 16px;
+    font-weight: 600;
+}
+.credits_jobs{
+    color: #4E5A65;
+    font-size: 16px;
+}
+.person_two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    padding: 25px 15px 5px 15px;
+    gap: 10px;
+}
+.install_apps{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 100px;
+    padding: 50px 40px;
+    background-color: #796EFF;
+    border-radius: 16px;
+    width: 900px;
+}
+.text_apps{
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+}
+.links_apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.link_app_google{
+    width: 180px;
+    text-decoration: none;
+}
+.link_app_store{
+    width: 180px;
+    text-decoration: none;
+}
+.box-install{
+    background-color: #1D2830;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 100px;
+    width: 101%;
+    padding: 80px 0;
+}
+.company_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.title_last{
+    font-size: 16px;
+    font-weight: 600;
+}
+.text_box{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFF;
+}
+.support_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.legal_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.install_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+}
+.logos{
+    text-decoration: none;
+}
+.logo_app{
+    border: 0.5px white solid;
+    border-radius: 10px;
+}
+.apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #1D2830;
+    width: 101%;
+}
+.rights{
+    color: #D9DBE1;
+    font-size: 14px;
+    width: 400px;
+}
+.apps_icons{
+    gap: 30px;
+}
+.app_icon_link{
+    background-color: #4e5256;
+    border-radius: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.app_icon{
+    width: 20px;
 }
