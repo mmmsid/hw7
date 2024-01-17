@@ -583,7 +583,7 @@ body{
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    gap: 20px;
+    gap: 15px;
 }
 .title_last{
     font-size: 16px;
@@ -599,14 +599,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    gap: 20px;
+    gap: 15px;
 }
 .legal_list{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    gap: 20px;
+    gap: 15px;
 }
 .install_list{
     display: flex;

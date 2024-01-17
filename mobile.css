@@ -462,33 +462,38 @@ body{
 }
 .company_list{
     display: inline-flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
 }
 .title_last{
     font-size: 16px;
     font-weight: 600;
 }
 .support_list{
-    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
-    justify-content: center;
-
-    gap: 240px;
 }
 .legal_list{
-    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
+    gap: 30px;
+}
+.downwards{
+    display: inline-flex;
     justify-content: center;
-    gap: 260px;
+    align-items: end;
 }
 .install_list{
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    gap: 15px;
+    gap: 10px;
 }
 .logos{
     text-decoration: none;
