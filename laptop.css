@@ -486,3 +486,88 @@ body{
     width: 180px;
     text-decoration: none;
 }
+.box-install{
+    background-color: #1D2830;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    width: 103%;
+    padding: 80px 0;
+}
+.company_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+.title_last{
+    font-size: 16px;
+    font-weight: 600;
+}
+.text_box{
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFF;
+}
+.support_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+.legal_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+.install_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+.logos{
+    text-decoration: none;
+}
+.logo_app{
+    border: 0.5px white solid;
+    border-radius: 10px;
+}
+.apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #1D2830;
+    width: 103%;
+    border-top: 1px #4e5256 solid;
+}
+.rights{
+    color: #D9DBE1;
+    font-size: 12px;
+    width: 300px;
+}
+.apps_icons{
+    gap: 20px;
+}
+.app_icon_link{
+    background-color: #4e5256;
+    border-radius: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.app_icon{
+    width: 20px;
+}

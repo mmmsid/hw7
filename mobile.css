@@ -448,3 +448,68 @@ body{
     width: 180px;
     text-decoration: none;
 }
+.box-install{
+    box-sizing: border-box;
+    background-color: #1D2830;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    width: 103%;
+    padding: 50px 30px;
+}
+.company_list{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title_last{
+    font-size: 16px;
+    font-weight: 600;
+}
+.support_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 240px;
+}
+.legal_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 260px;
+}
+.install_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+}
+.logos{
+    text-decoration: none;
+}
+.logo_app{
+    border: 0.5px white solid;
+    border-radius: 10px;
+    width: 150px;
+}
+.apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 3px;
+    background-color: #1D2830;
+    width: 101%;
+    border-top: 1px #4e5256 solid;
+}
+.rights{
+    color: #D9DBE1;
+    font-size: 14px;
+    width: 400px;
+}
