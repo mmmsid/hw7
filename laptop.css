@@ -462,7 +462,8 @@ body{
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    padding: 50px 0px;
+    width: 101%;
+    padding: 50px 30px;
     background-color: #796EFF;
 }
 .text_apps{
@@ -494,8 +495,8 @@ body{
     justify-content: center;
     align-items: start;
     gap: 50px;
-    width: 103%;
-    padding: 80px 0;
+    width: 101.5%;
+    padding: 80px 30px;
 }
 .company_list{
     display: flex;
@@ -548,7 +549,7 @@ body{
     align-items: center;
     padding: 20px 0;
     background-color: #1D2830;
-    width: 103%;
+    width: 101.5%;
     border-top: 1px #4e5256 solid;
 }
 .rights{

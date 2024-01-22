@@ -423,7 +423,7 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: #796EFF;
-    width: 103%;
+    width: 103.5%;
     gap: 20px;
     padding: 50px 0;
 }
@@ -461,32 +461,29 @@ body{
     padding: 50px 30px;
 }
 .company_list{
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    gap: 231px;
 }
 .title_last{
     font-size: 16px;
     font-weight: 600;
 }
 .support_list{
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    gap: 243px;
 }
 .legal_list{
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    gap: 30px;
-}
-.downwards{
-    display: inline-flex;
-    justify-content: center;
-    align-items: end;
+    gap: 263px;
 }
 .install_list{
     display: flex;
@@ -508,7 +505,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 3px;
+    padding: 30px 4.5px;
     background-color: #1D2830;
     width: 101%;
     border-top: 1px #4e5256 solid;
